@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the letters of the alphabe
+ * main - print the letters of the alphabet
  *
  * Description: print the letters of the aphabet in lower then in uppercase
  *
@@ -15,7 +15,7 @@ int main(void)
 	i = 97;
 	j = 65;
 
-	while (i < 123)	
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
@@ -26,9 +26,6 @@ int main(void)
 		putchar(j);
 		j++;
 	}
-	
 	putchar(10);
-
 	return (0);
 }
-
