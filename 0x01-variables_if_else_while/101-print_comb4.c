@@ -35,11 +35,13 @@ int main(void)
 					k++;
 				}
 
-				j++;
-			}
-
-			i++;
+			j++;
 		}
 
-		putchar(10);
-		return (0);
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
+}
